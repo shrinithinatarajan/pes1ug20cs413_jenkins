@@ -8,7 +8,7 @@ pipeline{
 				echo 'Build was successful'
 			}
 		}
-		stage('Test") {
+		stage('Test') {
 			steps {
 				sh './pes1ug20cs413'
 				echo 'Test was successful'
